@@ -11,7 +11,7 @@ async function getFiles () {
           let ext = path.extname(filePath);
           let name = file.name.replace(ext, '');
           let size = (await fs.stat(filePath)).size;
-          process.stdout.write(name + ' - ' + ext.slice(1) + ' - ' + size + 'kb' + '\n');
+          process.stdout.write(name + ' - ' + ext.slice(1) + ' - ' + size + 'b' + '\n');
         }
      }; 
   } catch (err) {
