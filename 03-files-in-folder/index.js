@@ -15,7 +15,7 @@ async function getFiles () {
         }
      }; 
   } catch (err) {
-    process.stdout.write('Error: ', err.message + '\n');
+    process.stdout.write('Error: ' + err.message + '\n');
   }
 };
 

@@ -16,5 +16,5 @@ stream.on('end', function(){
 });
 
 stream.on('error', error => {
-  console.log('Error: ', error.message)
+  console.log('Error: ' + error.message)
 });

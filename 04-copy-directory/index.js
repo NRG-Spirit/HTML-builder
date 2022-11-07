@@ -17,7 +17,7 @@ async function copyFiles () {
         }
      };  
   } catch (err) {
-    process.stdout.write('Error: ', err.message + '\n');
+    process.stdout.write('Error: ' + err.message + '\n');
   }
 };
 

@@ -18,7 +18,7 @@ async function getBundle () {
         }
      }; 
   } catch (err) {
-    process.stdout.write('Error: ', err.message + '\n');
+    process.stdout.write('Error: ' + err.message + '\n');
   }
 };
 
